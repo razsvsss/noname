@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Own CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Qalyn calculator</title>
+</head>
+<body>
+        <h2 class="text-center">Qalyn Mall</h2>
+        <h3>Education</h3>
+        <select class="bride-education">
+          <option class="education-option">Undergraduate degree</option>
+          <option class="education-option">College degree</option>
+          <option class="education-option">High school degree</option>
+          <option class="education-option">Middle school degree</option>
+        </select>
+
+
+
+        <h3>Family net worth</h3>
+        <select class="family-net">
+          <option class="family-option">More than 100,000$</option>
+          <option class="family-option">Between 50,000$ and 100,000$</option>
+          <option class="family-option">Less than 50,000$</option>
+        </select>
+
+        
+<br><br>
+
+
+
+<h3>Skills</h3>
+
+    <label for="skill1" class="container">
+        <input type="checkbox" id ="skill1" value="100">
+        <span class="checkmark"></span>
+        Playing on dombra (+100$)
+      </label>
+
+      <br>
+
+      <label for="skill2" class="container">
+        <input type="checkbox" id ="skill2" value="200">
+        <span class="checkmark"></span>
+        Good cook (+200$)
+      </label>
+
+      <br>
+
+      <label for="skill3" class="container">
+        <input type="checkbox" id ="skill3" value="150">
+        <span class="checkmark"></span>
+        Easygoing character (+150$)
+      </label>
+
+      <br>
+      
+      <label for="skill4" class="container">
+        <input type="checkbox" id ="skill4" value="100">
+        <span class="checkmark"></span>
+        Sings well (+100$)
+      </label>
+      
+<br>
+   
+<h3>Age</h3>
+<div>
+    <form action="" id="agefound" onsubmit="return false;">
+        <div class="cont_order">       
+                <label for="" class="radiolabel">
+                    <input type="radio" name="agecount" value="18">Between 18-23 
+                </label>  <br>
+                <label for="" class="radiolabel">
+                    <input type="radio" name="agecount" value="24" > Between 24-27
+                </label> <br>
+                <label for="" class="radiolabel">
+                    <input type="radio" name="agecount" value="28" > 28+
+                </label> <br>
+                
+                <br>
+            </div>
+
+
+
+
+
+
+
+                <h3>Reputation</h3>
+
+                    <div>
+                    <br />
+                    <input type="checkbox"   
+                    class="gossip">Gossips about his/her parent's attitude
+                    <br />
+                    <input type="checkbox"                  
+                    class="gossip">Gossips about his/her character 
+                    <br />
+                    <input type="checkbox"
+                                 
+                    class="gossip">General gossips around his/her person
+                    <br />            
+                </div>
+              <br>
+                <br>
+      <button id="submit-quote">Calculate Price</button>
+
+      <div>
+        <h2>Your Price</h2>
+        <h3 class="price">£...</h3>
+    
+      </div>
+    </div>
+    
+      <br>
+      
+    <script src="script.js"></script>
+</body>
+</html>
